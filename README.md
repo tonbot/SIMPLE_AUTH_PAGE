@@ -3,14 +3,12 @@
 A new Flutter project.
 
 ## Getting Started
+This project contain three screen-
+1. Login screen
+2. Signup screen
+3. Home screen
 
-This project is a starting point for a Flutter application.
+login screen allow you to login prior that you are a registered user but if not the login direct you to Signup Screen.
 
-A few resources to get you started if this is your first Flutter project:
+Signup screen will allow you to register and on success it will direct you to Login Screen so that you can be validated and if validation is success then you can be directed to the Home screen.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
