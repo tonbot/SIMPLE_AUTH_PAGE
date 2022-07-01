@@ -1,4 +1,6 @@
 import 'package:authentication_001/constant/color/color.dart';
+import 'package:authentication_001/screen/profile.dart';
+import 'package:authentication_001/screen/signup.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -16,11 +18,15 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(statusBarColor: primary));
 
-    return const MaterialApp(
-       
+    return  MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      home: login(),
+       initialRoute: "/login",
+       routes: {
+          '/profile': (context) => const Profile(),
+          '/login': (context) => const login(),
+          '/signup': (context) => const Signup(),
+       },
     );
   }
 }

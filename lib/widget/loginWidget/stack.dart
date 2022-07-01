@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors, camel_case_types, use_key_in_widget_constructors
 
 import 'package:authentication_001/constant/color/color.dart';
 import 'package:flutter/material.dart';

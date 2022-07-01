@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors, camel_case_types
 
 import 'package:authentication_001/widget/loginWidget/loginForm.dart';
 import 'package:flutter/material.dart';
@@ -19,7 +19,7 @@ class _loginState extends State<login> {
       child: ListView(
         children: [
          stack(),
-        loginForm(),
+         loginForm(),
       ]),
     ));
   }
